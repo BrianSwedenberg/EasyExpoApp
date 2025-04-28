@@ -13,6 +13,13 @@ const MAPPING = {
   'paperplane.fill': 'send',
   'chevron.left.forwardslash.chevron.right': 'code',
   'chevron.right': 'chevron-right',
+
+  // Add new mapping for message
+  'message': 'message',           // Basic message icon
+  'message.fill': 'message',      // Filled message icon
+  'text.bubble': 'chat',          // Alternative chat bubble
+  'text.bubble.fill': 'chat'      // Filled chat bubble  
+
 } as Partial<
   Record<
     import('expo-symbols').SymbolViewProps['name'],
